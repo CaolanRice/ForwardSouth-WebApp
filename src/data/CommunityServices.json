@@ -1,0 +1,77 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Markets Development Association",
+          "NAME_FR": "Markets Development Association",
+          "ADDRESS": "1 Eliza St Terrace, Belfast BT7 2BJ",
+          "CONTACT_NUMBER": "02890312272",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.924050, 54.593710]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Sandy Row Community Forum",
+          "NAME_FR": "Sandy Row Community Forum",
+          "ADDRESS": "63-75 Sandy Row, Belfast BT12 5ER",
+          "CONTACT_NUMBER": "02890238446",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.936950, 54.591340]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Donegall Pass Community Forum",
+          "NAME_FR": "Planchodrome Greely Village",
+          "ADDRESS": "165 Donegall Pass, Belfast BT7 1DT",
+          "ADDRESS_FR": "165 Donegall Pass, Belfast BT7 1DT",
+          "CONTACT_NUMBER": "02890326256",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.930310, 54.589890]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2113,
+          "FACILITYID": 35299,
+          "NAME": "Lower Ormeau Residents Action Group",
+          "NAME_FR": "Planchomdrome Innovation",
+          "ADDRESS": "97 Balfour Avenue Belfast BT7 2EW",
+          "ADDRESS_FR": "4101, promenade Innovation",
+          "CONTACT_NUMBER": "02890312377",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.919950, 54.586610]
+        }
+      }
+    ]
+  }
+  
+  

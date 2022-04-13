@@ -1,0 +1,78 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  padding: 1rem;
+}
+
+table {
+  border: 10px solid transparent;
+  border-collapse: collapse;
+  width: 100vw;
+  height: 100vh;
+  font-family: " Opera MS";
+  font-size: 35px;
+}
+
+th,
+td {
+  border: 1px solid transparent;
+  text-align: left;
+  padding: 12px;
+  font-family: helvetica;
+  font-size: 50%;
+  width: flex;
+}
+th {
+  background-color: rgb(112, 189, 112);
+}
+
+td {
+  background-color: rgb(241, 241, 241);
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 40px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  th,
+  td {
+    border: 100px solid transparent;
+    text-align: left;
+    padding: 40px;
+    font-size: 22px;
+  }
+  th {
+    background-color: rgb(9, 14, 11);
+  }
+
+  td {
+    background-color: rgb(245, 245, 245);
+  }
+
+  table {
+    border: 5px solid;
+    border-collapse: collapse;
+    width: 100%;
+  }
+}

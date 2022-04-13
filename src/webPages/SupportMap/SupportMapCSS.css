@@ -1,0 +1,30 @@
+.contact {
+  width: 100vh;
+  height: 100%;
+  background-color: white;
+}
+
+.card {
+  height: 100%;
+}
+
+.scrollable-menu {
+  height: auto;
+  max-height: 250px;
+  overflow-x: hidden;
+  position: center;
+  font-size: small;
+}
+
+.dropdown-menu {
+  position: relative;
+  width: auto !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 10px;
+  font-size: small;
+}
+
+.dropdwon:hover .dropdown-menu {
+  display: block;
+}
